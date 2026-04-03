@@ -1,0 +1,10 @@
+{
+	"errors": {
+		"missingReservationDateTime": "กรุณาเลือกทั้งวันที่และเวลาจอง",
+		"invalidReservationStartTime": "เวลาที่จองมันดูแปลกๆนะครับ",
+		"unableToGenerateCalendarFile": "ผมสร้างไฟล์ไม่ได้ครับ ไม่รู้ทำไมครับ ขอโทษครับ"
+	},
+	"feedback": {
+		"selectedPrefix": "สรุปการจอง:"
+	}
+}

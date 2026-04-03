@@ -1,0 +1,92 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--color-primary-50: #fcf8f4;
+	--color-primary-100: #f7efe6;
+	--color-primary-200: #efdcc8;
+	--color-primary-300: #e6c5a2;
+	--color-primary-400: #d6a77a;
+	--color-primary-500: #c58e5c;
+	--color-primary-600: #ae7446;
+	--color-primary-700: #8d5a35;
+	--color-primary-800: #6f472a;
+	--color-primary-900: #573821;
+	--color-primary: #d6a77a;
+	--color-primary-foreground: #2b2b2b;
+
+	--color-background-50: #ffffff;
+	--color-background-100: #fdfbf8;
+	--color-background-200: #f7f3ed;
+	--color-background-300: #efe7dd;
+	--color-background: #f7f3ed;
+	--color-background-foreground: #2b2b2b;
+
+	--color-accent-50: #fff9e8;
+	--color-accent-100: #fff1c7;
+	--color-accent-200: #f9e09a;
+	--color-accent-300: #f1cc74;
+	--color-accent-400: #e6b85c;
+	--color-accent-500: #d99e2b;
+	--color-accent-600: #b97f1c;
+	--color-accent-700: #8f6118;
+	--color-accent-800: #6d4a14;
+	--color-accent-900: #563a12;
+	--color-accent: #e6b85c;
+	--color-accent-foreground: #2b2b2b;
+
+	--color-neutral-50: #f6f4f2;
+	--color-neutral-100: #ece7e2;
+	--color-neutral-200: #d8cec4;
+	--color-neutral-300: #bfafa0;
+	--color-neutral-400: #9f8b79;
+	--color-neutral-500: #7f6a59;
+	--color-neutral-600: #5a3e2b;
+	--color-neutral-700: #4a3324;
+	--color-neutral-800: #38271d;
+	--color-neutral-900: #2b2b2b;
+	--color-neutral: #2b2b2b;
+	--color-neutral-foreground: #f7f3ed;
+
+	--color-semantic-success: #6fa36a;
+	--color-semantic-warning: #e6b85c;
+	--color-semantic-danger: #b85c4b;
+	--color-semantic-info: #7a9e9f;
+}
+
+@layer base {
+	:root {
+		color-scheme: light;
+	}
+
+	html {
+		background-color: var(--color-background);
+	}
+
+	body {
+		min-height: 100vh;
+		background-color: var(--color-background);
+		color: var(--color-neutral-900);
+		font-family:
+			'Avenir Next',
+			'Segoe UI',
+			sans-serif;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4 {
+		font-family:
+			'Iowan Old Style',
+			'Palatino Linotype',
+			'Book Antiqua',
+			serif;
+	}
+
+	::selection {
+		background-color: var(--color-accent-200);
+		color: var(--color-neutral-900);
+	}
+}
