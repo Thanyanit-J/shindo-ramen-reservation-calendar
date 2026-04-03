@@ -157,6 +157,9 @@
 									name="reservation-time"
 									type="time"
 									list="time-slots"
+									min="11:00"
+									max="20:00"
+									step="1800"
 									bind:value={reservationTime}
 									onchange={handleReservationInput}
 									class="mt-2 block w-full rounded-2xl border border-background-300 bg-background-50 px-4 py-3 text-base text-neutral-900 shadow-none transition focus:border-primary-500 focus:ring-2 focus:ring-primary-200"
