@@ -28,7 +28,7 @@ describe('createReservationCalendarFile', () => {
 			...RESERVATION_DETAILS,
 			location: 'True Space มหิดล ศาลายา',
 			mapUrl: 'https://maps.app.goo.gl/4Q6c8Q6joNzXudCu5',
-			description: 'Bring the booking reference.'
+			notes: 'Bring the booking reference.'
 		};
 		const startDate = new Date(reservationStartDatetime);
 		const endDate = new Date(startDate.getTime() + details.durationMinutes * 60_000);

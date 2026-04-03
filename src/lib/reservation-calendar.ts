@@ -6,7 +6,7 @@ export type ReservationDetails = {
 	mapUrl?: string;
 	durationMinutes: number;
 	title: string;
-	description: string;
+	notes: string;
 };
 
 export type LocationOption = {
@@ -43,7 +43,7 @@ export const RESERVATION_DETAILS: ReservationDetails = {
 	location: LOCATION_OPTIONS[0].mapUrl,
 	durationMinutes: 60,
 	title: 'Shindo Ramen',
-	description: 'Reservation reminder. Update the restaurant details and add your own notes here.'
+	notes: ''
 };
 
 function padDatePart(value: number): string {
@@ -91,7 +91,7 @@ export function createReservationCalendarFile(
 	const endDate = new Date(startDate.getTime() + details.durationMinutes * 60_000);
 	const issuedAt = options.now ?? new Date();
 	const uid = `reservation-${startDate.getTime()}@shindo-calendar.local`;
-	const description = details.description;
+	const description = details.notes;
 	const content = [
 		'BEGIN:VCALENDAR',
 		'VERSION:2.0',
