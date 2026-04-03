@@ -107,7 +107,7 @@
 </script>
 
 <svelte:head>
-	<title>Create Shindo Calendar</title>
+	<title>Shindo Ramen Calendar Event</title>
 	<meta
 		name="description"
 		content="Create a downloadable calendar reminder for Shindo Ramen reservation."
