@@ -1,6 +1,10 @@
-# sv
+# Create Calendar Event for Shindo Ramen Reservation
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+[Shindo Ramen](https://maps.app.goo.gl/M1ECt6TLt2BMG7ot7) is a ramen restaurant in Thailand. The reservation is made by phone only (or walk-in and test your luck). As a frequent customer, I make this to simplify my life a bit.
+
+Behold a calendar event generator for [Shindo Ramen](https://maps.app.goo.gl/M1ECt6TLt2BMG7ot7) reservation. Users choose their reservation date, time, and pin their preferred parking location, then download an `.ics` file to add their booking to their calendar.
+
+<img src="https://github.com/user-attachments/assets/96ff3091-17db-4bde-9c0a-c8a5eadc6866" width=30% height=30%>
 
 ## Creating a project
 
