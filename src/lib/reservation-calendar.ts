@@ -27,15 +27,15 @@ export const LOCATION_OPTIONS: LocationOption[] = [
 		mapUrl: 'https://maps.app.goo.gl/M1ECt6TLt2BMG7ot7'
 	},
 	{
+		id: 'mahidol-gate-5',
+		label: 'ม.มหิดล (ประตู 5)',
+		mapUrl: 'https://maps.app.goo.gl/DCDewHmRujcA8zsW7'
+	},
+	{
 		id: 'true-space-mahidol-salaya',
 		label: 'True Space มหิดล ศาลายา',
 		mapUrl: 'https://maps.app.goo.gl/4Q6c8Q6joNzXudCu5'
 	},
-	{
-		id: 'mahidol-gate-5',
-		label: 'ม.มหิดล (ประตู 5)',
-		mapUrl: 'https://maps.app.goo.gl/DCDewHmRujcA8zsW7'
-	}
 ];
 
 export const RESERVATION_DETAILS: ReservationDetails = {
