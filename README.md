@@ -6,6 +6,8 @@ Behold a calendar event generator for [Shindo Ramen](https://maps.app.goo.gl/M1E
 
 <img src="https://github.com/user-attachments/assets/96ff3091-17db-4bde-9c0a-c8a5eadc6866" width=30% height=30%>
 
+The app is installable as a Progressive Web App and keeps the calendar generator available offline after the first visit.
+
 ## Creating a project
 
 If you're seeing this, you've probably already done this step. Congrats!
